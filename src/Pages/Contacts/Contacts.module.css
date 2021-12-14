@@ -1,9 +1,9 @@
 .container {
     width: 70%;
     margin: 20px auto;
-    padding: 10px 30px;
+    padding: 10px 20px;
     background: white;
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 4px 0px rgba(214, 206, 214, 1);
     border-radius: 10px;
 }
 
@@ -58,5 +58,15 @@
 @media screen and (max-width: 1100px) {
     .container {
         width: 85%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        border-radius: 0;
+    }
+
+    .map {
+        height: 50vh;
     }
 }

@@ -51,13 +51,8 @@ const LoginForm = ({ handleSubmit }) => {
                             Вход
                         </Button>
                         <Grid container>
-                            <Grid item xs>
-                                <Link variant="body2">
-                                    Забравена парола?
-                                </Link>
-                            </Grid>
                             <Grid item>
-                                <Link href="/sign-up" variant="body2">
+                                <Link href="#/sign-up" variant="body2">
                                     Нямата регистрация?
                                 </Link>
                             </Grid>

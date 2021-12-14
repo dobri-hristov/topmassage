@@ -88,7 +88,7 @@ const MenuButton = () => {
                     component={Link}
                     to="/reservation"
                 >
-                    <Typography variant="h6"> Запазване на час </Typography>
+                    <Typography variant="h6"> Запази час </Typography>
                 </MenuItem>
                 <MenuItem
                     onClick={() => setAnchor(null)}
