@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About page/Masseur component should render correctly with data 1`] = `
+<article
+  className="employee"
+>
+  <img
+    alt="Михаела Иванова"
+    src="https://res.cloudinary.com/dfwwzfev2/image/upload/v1637842573/top-massage/masseurs/Mihaela_lvoe9a.jpg"
+  />
+  <h3
+    className="employeeName"
+  >
+    Михаела Иванова
+  </h3>
+  <h5
+    className="employeePosition"
+  >
+    Мениджър
+  </h5>
+  <p
+    className="employeeInfo"
+  >
+    С магистърска степен специалност кинезитерапия, Михаела има дългогодишен опит както кинезитерапевт, консултант, 
+ експерт и управител.Нейната сила и страст е в индивидуално диагностициране и прилагане на ефективни масажи
+ за превенция и профилактика на Вашето здраве.
+  </p>
+</article>
+`;

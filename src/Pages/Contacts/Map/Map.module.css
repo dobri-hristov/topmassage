@@ -1,0 +1,15 @@
+.info {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.info>* {
+    margin: 0;
+}
+
+.infoTitle {
+    overflow: hidden;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 3px;
+}

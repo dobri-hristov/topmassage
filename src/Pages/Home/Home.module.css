@@ -1,0 +1,57 @@
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.about {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 18px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #673AB7;
+}
+
+.advantages {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.advantageContainer {
+    flex-basis: 30%;
+    margin: 10px auto;
+}
+
+.iconContainer {
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background: #757594;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.icon {
+    color: #F1F1F1;
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 889px) {
+    .advantageContainer {
+        flex-basis: 80%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}

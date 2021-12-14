@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error page should render correctly 1`] = `
+<div
+  className="container"
+>
+  <p
+    className="icon"
+  >
+    <i
+      class="far fa-frown"
+    />
+  </p>
+  <h2
+    className="line"
+  >
+    Страницата не е намерена
+  </h2>
+  <p
+    className="line"
+  >
+    Изглежда не можем да намерим това, което търсите. Може би една от тези връзки ще ви помогне.
+  </p>
+  <div
+    className="line"
+  >
+    <button
+      className="container"
+      onClick={[Function]}
+    >
+      Начало
+    </button>
+    <button
+      className="container"
+      onClick={[Function]}
+    >
+      Масажи
+    </button>
+    <button
+      className="container"
+      onClick={[Function]}
+    >
+      Цени
+    </button>
+    <button
+      className="container"
+      onClick={[Function]}
+    >
+      Контакти
+    </button>
+    <button
+      className="container"
+      onClick={[Function]}
+    >
+      Запази час
+    </button>
+    <button
+      className="container"
+      onClick={[Function]}
+    >
+      За нас
+    </button>
+    <button
+      className="container"
+      onClick={[Function]}
+    >
+      Вход
+    </button>
+    <button
+      className="container"
+      onClick={[Function]}
+    >
+      Регистрация
+    </button>
+  </div>
+</div>
+`;

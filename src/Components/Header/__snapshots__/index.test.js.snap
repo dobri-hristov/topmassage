@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should render correctly 1`] = `
+<div
+  className="container gray"
+>
+  <p>
+    <i
+      className="fas fa-map-marker-alt"
+    />
+     град София, ж.к. Люлин, бул. "Царица Йоана" 49
+  </p>
+  <p>
+    <i
+      className="fas fa-phone-alt"
+    />
+     +359 878 456 333
+  </p>
+  <p>
+    <i
+      className="fas fa-envelope"
+    />
+     topmassage@gmail.com
+  </p>
+</div>
+`;

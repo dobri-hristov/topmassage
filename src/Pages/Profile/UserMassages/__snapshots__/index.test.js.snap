@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile page/UserMassages component should render correctly with NO data 1`] = `
+<div
+  className="massages-form"
+>
+  <h3
+    className="title"
+  >
+    Предстоящи масажи
+  </h3>
+  <div
+    className="tr trMain"
+  >
+    <h3
+      className="type"
+    >
+      Вид масаж
+    </h3>
+    <h3>
+      Дата
+    </h3>
+    <h3
+      className="hour"
+    >
+      Час
+    </h3>
+  </div>
+  <p
+    className="tr massages"
+  >
+    Нямата запазен час за масаж
+  </p>
+</div>
+`;
+
+exports[`Profile page/UserMassages component should render correctly with data (length < 5) 1`] = `
+<div
+  className="massages-form"
+>
+  <h3
+    className="title"
+  >
+    Предстоящи масажи
+  </h3>
+  <div
+    className="tr trMain"
+  >
+    <h3
+      className="type"
+    >
+      Вид масаж
+    </h3>
+    <h3>
+      Дата
+    </h3>
+    <h3
+      className="hour"
+    >
+      Час
+    </h3>
+  </div>
+  <p
+    className="tr massages"
+  >
+    Нямата запазен час за масаж
+  </p>
+</div>
+`;
+
+exports[`Profile page/UserMassages component should render correctly with data (length = 6) 1`] = `
+<div
+  className="massages-form"
+>
+  <h3
+    className="title"
+  >
+    Предстоящи масажи
+  </h3>
+  <div
+    className="tr trMain"
+  >
+    <h3
+      className="type"
+    >
+      Вид масаж
+    </h3>
+    <h3>
+      Дата
+    </h3>
+    <h3
+      className="hour"
+    >
+      Час
+    </h3>
+  </div>
+  <p
+    className="tr massages"
+  >
+    Нямата запазен час за масаж
+  </p>
+</div>
+`;
+
+exports[`Profile page/UserMassages component should render correctly with data (length > 6) 1`] = `
+<div
+  className="massages-form"
+>
+  <h3
+    className="title"
+  >
+    Предстоящи масажи
+  </h3>
+  <div
+    className="tr trMain"
+  >
+    <h3
+      className="type"
+    >
+      Вид масаж
+    </h3>
+    <h3>
+      Дата
+    </h3>
+    <h3
+      className="hour"
+    >
+      Час
+    </h3>
+  </div>
+  <p
+    className="tr massages"
+  >
+    Нямата запазен час за масаж
+  </p>
+</div>
+`;

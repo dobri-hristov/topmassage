@@ -1,0 +1,18 @@
+.container {
+    display: none;
+    text-align: center;
+}
+
+.black {
+    color: black;
+}
+
+.purple {
+    color: #673AB7;
+}
+
+@media screen and (max-width: 889px) {
+    .container {
+        display: block;
+    }
+}

@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prices page/CustomCarousel component should render correctly 1`] = `
+<div
+  className="carousel-root container"
+>
+  <div
+    className="carousel carousel-slider"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <ul
+      className="control-dots"
+    >
+      <li
+        aria-label="slide item 1"
+        className="dot selected"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        tabIndex={0}
+        value={0}
+      />
+      <li
+        aria-label="slide item 2"
+        className="dot"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        tabIndex={0}
+        value={1}
+      />
+      <li
+        aria-label="slide item 3"
+        className="dot"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        tabIndex={0}
+        value={2}
+      />
+      <li
+        aria-label="slide item 4"
+        className="dot"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        tabIndex={0}
+        value={3}
+      />
+    </ul>
+    <button
+      aria-label="previous slide / item"
+      className="control-arrow control-prev control-disabled"
+      onClick={[Function]}
+      type="button"
+    />
+    <div
+      className="slider-wrapper axis-horizontal"
+      style={Object {}}
+    >
+      <ul
+        className="slider animated"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "MozTransitionDuration": "350ms",
+            "OTransform": "translate3d(0,0,0)",
+            "OTransitionDuration": "350ms",
+            "WebkitTransform": "translate3d(0,0,0)",
+            "WebkitTransitionDuration": "350ms",
+            "msTransform": "translate3d(0,0,0)",
+            "msTransitionDuration": "350ms",
+            "transform": "translate3d(0,0,0)",
+            "transitionDuration": "350ms",
+          }
+        }
+      >
+        <li
+          className="slide selected previous"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="imgContainer"
+          >
+            <img
+              alt="massage information"
+              src="https://res.cloudinary.com/dfwwzfev2/image/upload/v1638523902/top-massage/carousel/classicMassage_dmiyb5.jpg"
+            />
+            <div
+              className="legend legend1"
+            >
+              <h1>
+                Класически масаж
+              </h1>
+              <p>
+                Време е за релакс
+              </p>
+              <button
+                className="btn"
+                onClick={[Function]}
+              >
+                Запази час
+              </button>
+            </div>
+          </div>
+        </li>
+        <li
+          className="slide"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="imgContainer"
+          >
+            <img
+              alt="massage information"
+              src="https://res.cloudinary.com/dfwwzfev2/image/upload/v1638525728/top-massage/carousel/sportMassage4_vfui0k.jpg"
+            />
+            <div
+              className="legend legend2"
+            >
+              <h1>
+                Спортен масаж
+              </h1>
+              <p>
+                Отърви се от болката
+              </p>
+              <button
+                className="btn"
+                onClick={[Function]}
+              >
+                Запази час
+              </button>
+            </div>
+          </div>
+        </li>
+        <li
+          className="slide"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="imgContainer"
+          >
+            <img
+              alt="massage information"
+              src="https://res.cloudinary.com/dfwwzfev2/image/upload/v1638523901/top-massage/carousel/healingMassage_r2w9t8.jpg"
+            />
+            <div
+              className="legend legend2"
+            >
+              <h1>
+                Лечебен масаж
+              </h1>
+              <p>
+                Слей се с природата
+              </p>
+              <button
+                className="btn"
+                onClick={[Function]}
+              >
+                Запази час
+              </button>
+            </div>
+          </div>
+        </li>
+        <li
+          className="slide"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="imgContainer"
+          >
+            <img
+              alt="massage information"
+              src="https://res.cloudinary.com/dfwwzfev2/image/upload/v1638523902/top-massage/carousel/relaxing_osarhr.png"
+            />
+            <div
+              className="legend legend3"
+            >
+              <p>
+                Отпусни тялото и сетивата си в Top Massage студио
+              </p>
+              <button
+                className="btn"
+                onClick={[Function]}
+              >
+                Запази час
+              </button>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <button
+      aria-label="next slide / item"
+      className="control-arrow control-next"
+      onClick={[Function]}
+      type="button"
+    />
+  </div>
+</div>
+`;

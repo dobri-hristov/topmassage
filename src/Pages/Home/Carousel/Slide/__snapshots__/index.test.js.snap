@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page/Carousel/Slide component should render correctly 1`] = `
+<div
+  className="imgContainer"
+>
+  <img
+    alt="massage information"
+    src=""
+  />
+  <div
+    className="legend legend1"
+  >
+    <h1>
+      Класически масаж
+    </h1>
+    <p>
+      Класически масаж информация
+    </p>
+    <button
+      className="btn"
+      onClick={[Function]}
+    >
+      Запази час
+    </button>
+  </div>
+</div>
+`;

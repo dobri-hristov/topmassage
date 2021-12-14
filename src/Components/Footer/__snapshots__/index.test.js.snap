@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component should render correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="info"
+  >
+    <p
+      className="copyright"
+    >
+       © 2021 Top Massage. All rights reserved
+    </p>
+    <ul
+      className="contacts"
+    >
+      <li
+        className="facebook"
+        onClick={[Function]}
+        onMouseOver={[Function]}
+      >
+        <i
+          className="fab fa-facebook-f"
+        />
+      </li>
+      <li
+        className="insta"
+        onClick={[Function]}
+        onMouseOver={[Function]}
+      >
+        <i
+          className="fab fa-instagram"
+        />
+      </li>
+      <li
+        className="youtube"
+        onClick={[Function]}
+        onMouseOver={[Function]}
+      >
+        <i
+          className="fab fa-youtube"
+        />
+      </li>
+    </ul>
+  </div>
+</div>
+`;

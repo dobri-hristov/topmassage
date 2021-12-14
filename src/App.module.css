@@ -1,0 +1,14 @@
+.container {
+  margin-top: 30px;
+}
+
+.page {
+  min-height: 70vh;
+  margin: 50px 0;
+}
+
+@media screen and (max-width: 889px) {
+  .container {
+    margin-top: 100px;
+  }
+}

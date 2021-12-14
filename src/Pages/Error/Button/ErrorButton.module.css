@@ -1,0 +1,14 @@
+.container {
+    background: #757594;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px 10px 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.container:hover{
+    background: #44267A; 
+}

@@ -1,0 +1,49 @@
+.title {
+    text-align: center;
+}
+
+.tr {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+.trMain h3,
+.title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #673AB7;
+}
+
+.type {
+    flex-basis: 60%;
+}
+
+.massages p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.date {
+    text-align: center;
+}
+
+.hour {
+    margin-left: 10px;
+}
+
+.more {
+    margin: 10px 0 5px 0;
+    color: #673AB7
+}
+
+@media screen and (max-width: 390px) {
+    .trMain {
+        display: none;
+    }
+
+    .tr {
+        flex-direction: column;
+        text-align: center;
+    }
+}

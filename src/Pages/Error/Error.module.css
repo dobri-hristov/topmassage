@@ -1,0 +1,14 @@
+.container{
+    width: 60%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon i{
+    font-size: 100px
+}
+
+.line{
+    margin:5px 0
+}

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prices page/PricesData component should render correctly with data 1`] = `
+<article
+  className="tr trOdd"
+>
+  <p
+    className="linkName"
+  >
+    <Link
+      className="link"
+      to="massages/classic"
+    >
+      класически
+    </Link>
+  </p>
+  <p>
+    50
+     лв.
+  </p>
+</article>
+`;
+
+exports[`Prices page/PricesData component should render correctly with no data 1`] = `
+<article
+  className="tr trOdd"
+>
+  <p
+    className="linkName"
+  >
+    <Link
+      className="link"
+      to="massages/undefined"
+    />
+  </p>
+  <p>
+     лв.
+  </p>
+</article>
+`;

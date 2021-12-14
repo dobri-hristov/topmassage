@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contacts page component should render correctly 1`] = `
+<div>
+  <div
+    className="container"
+  >
+    <p
+      className="title"
+    >
+      <b>
+        Контакти
+      </b>
+    </p>
+    <p>
+      За информация и резервации ни потърсете!
+    </p>
+    <div>
+      <i
+        className="fas fa-map-pin place"
+      />
+      град София, ж.к. Люлин, бул. "Царица Йоана" 49
+    </div>
+    <div>
+      <i
+        className="fas fa-phone-alt phone"
+      />
+      +359 878 456 333
+    </div>
+    <div>
+      <i
+        className="fas fa-envelope email"
+      />
+      topmassage@gmail.com
+    </div>
+    <div
+      className="worktimeMap"
+    >
+      <div
+        className="worktime"
+      >
+        <p>
+          <b>
+            Работно Време
+          </b>
+        </p>
+        <ul
+          className="hours"
+        >
+          <li>
+            <i
+              className="fas fa-clock"
+            />
+            Понеделник
+            : 
+            <span>
+              10:00-19:00
+            </span>
+          </li>
+          <li>
+            <i
+              className="fas fa-clock"
+            />
+            Вториник
+            : 
+            <span>
+              10:00-19:00
+            </span>
+          </li>
+          <li>
+            <i
+              className="fas fa-clock"
+            />
+            Сряда
+            : 
+            <span>
+              10:00-19:00
+            </span>
+          </li>
+          <li>
+            <i
+              className="fas fa-clock"
+            />
+            Четвъртък
+            : 
+            <span>
+              10:00-19:00
+            </span>
+          </li>
+          <li>
+            <i
+              className="fas fa-clock"
+            />
+            Петък
+            : 
+            <span>
+              10:00-19:00
+            </span>
+          </li>
+          <li>
+            <i
+              className="fas fa-clock"
+            />
+            Събота
+            : 
+            <span>
+              10:00-19:00
+            </span>
+          </li>
+          <li>
+            <i
+              className="fas fa-clock"
+            />
+            Неделя
+            : 
+            <span>
+              почивен ден
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="map"
+      >
+        <div
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          <span
+            className="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-18lrjg1-MuiCircularProgress-root"
+            role="progressbar"
+            style={
+              Object {
+                "height": "8rem",
+                "width": "8rem",
+              }
+            }
+          >
+            <svg
+              className="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+              viewBox="22 22 44 44"
+            >
+              <circle
+                className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+                cx={44}
+                cy={44}
+                fill="none"
+                r={20.2}
+                strokeWidth={3.6}
+                style={Object {}}
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

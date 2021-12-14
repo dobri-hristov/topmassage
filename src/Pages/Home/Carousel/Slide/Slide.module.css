@@ -1,0 +1,92 @@
+.imgContainer {
+    width: 100%;
+    height: 85vh;
+}
+
+.imgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+.legend {
+    transition: all .5s ease-in-out;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    transition: opacity .35s ease-in-out;
+}
+
+.legend>* {
+    margin: 8px;
+}
+
+.btn {
+    border-radius: 15px;
+    border: none;
+    padding: 15px 20px;
+    color: white;
+    background: #673AB7;
+    font-size: 16px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    transition: all 0.3s ease-in-out;
+    color: black;
+}
+
+.legend1, .legend3, .legend2 {
+    width: 30%;
+    border-radius: 20px;
+}
+
+.legend1 {
+    bottom: 45%;
+    left: 2%;
+}
+
+.legend2 {
+    bottom: 95%;
+    left: 5%;
+}
+
+.legend3 {
+    width: 50%;
+    bottom: 95%;
+    left: 45%;
+}
+
+@media screen and (max-width: 600px),
+screen and (max-height: 500px) {
+    .imgContainer img {
+        filter: brightness(0.4);
+    }
+
+    .legend1, .legend3, .legend2 {
+        width: 100%;
+    }
+
+    .legend1 {
+        bottom: 95%;
+        left: 0%;
+    }
+
+    .legend2 {
+        left: 0%;
+    }
+
+    .legend3 {
+        width: 100%;
+        bottom: 95%;
+        left: 0%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .imgContainer {
+        height: 60vh;
+    }
+}

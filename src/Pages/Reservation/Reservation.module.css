@@ -1,0 +1,19 @@
+.page {
+    margin: -50px 0;
+    padding: 50px 0 100px 0;
+    background-image: url('https://res.cloudinary.com/dfwwzfev2/image/upload/v1638261943/top-massage/reservatioMainImg_ywicsg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formContainer {
+    width: 50%;
+    margin-left: 5%;
+}
+
+@media screen and (max-width: 889px) {
+    .formContainer {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

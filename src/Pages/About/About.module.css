@@ -1,0 +1,71 @@
+.us {
+    max-width: 90%;
+    margin: 0px auto;
+    text-align: center;
+    font-style: italic;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.title {
+    font-style: 'normal';
+    font-size: 2em;
+}
+
+.masseurs {
+    display: flex;
+    justify-content: space-between;
+    max-width: 95%;
+    margin: 40px auto;
+    flex-wrap: wrap;
+
+}
+
+.team {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.team p {
+    border-bottom: 1px solid #757594;
+    display: inline;
+    height: 29px;
+    padding: 4px;
+    font-size: 1.5rem;
+}
+
+.employee {
+    text-align: center;
+    flex-basis: 24%;
+    margin: 20px auto;
+}
+
+.employeePosition {
+    margin: 5px 0 20px 0;
+}
+
+.employee img {
+    border: 4px solid #BFBFBF;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.employeeName, .employeeInfo {
+    margin: 5px;
+}
+
+.employeeInfo {
+    font-style: italic;
+}
+@media screen and (max-width: 889px) {
+    .employee {
+        width: 70%;
+    }
+
+    .masseurs {
+        flex-direction: column;
+    }
+}

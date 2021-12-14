@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Massages page/Massage component should render correctly with data 1`] = `
+Array [
+  <div
+    className="path"
+  >
+    <h3>
+      Масажи/
+      Класически масаж
+    </h3>
+  </div>,
+  <div
+    className="container"
+  >
+    <h1
+      className="title"
+    >
+      Класически масаж
+    </h1>
+    <div
+      className="firstImg"
+    >
+      <img
+        alt="classic massage"
+        src=""
+      />
+    </div>
+    <div
+      className="info"
+    >
+      <div>
+        класически масаж
+      </div>
+      <div>
+        <p>
+          информация 1
+        </p>
+        <p>
+          информация 2
+        </p>
+      </div>
+      <div
+        className="priceContainer"
+      >
+        <h3>
+          Цени:
+        </h3>
+        <div
+          className="prices"
+        >
+          <p
+            className="price"
+          >
+            30
+             мин. - 
+            60
+             лв. 
+          </p>
+          <p
+            className="price"
+          >
+            60
+             мин. - 
+            90
+             лв. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
