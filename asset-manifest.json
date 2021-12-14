@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/topmassage/static/css/main.1a7be3df.chunk.css",
-    "main.js": "/topmassage/static/js/main.ebf0b5b8.chunk.js",
-    "main.js.map": "/topmassage/static/js/main.ebf0b5b8.chunk.js.map",
+    "main.js": "/topmassage/static/js/main.abaebe3d.chunk.js",
+    "main.js.map": "/topmassage/static/js/main.abaebe3d.chunk.js.map",
     "runtime-main.js": "/topmassage/static/js/runtime-main.88323c4a.js",
     "runtime-main.js.map": "/topmassage/static/js/runtime-main.88323c4a.js.map",
     "static/css/2.ed1298f3.chunk.css": "/topmassage/static/css/2.ed1298f3.chunk.css",
-    "static/js/2.6a27a790.chunk.js": "/topmassage/static/js/2.6a27a790.chunk.js",
-    "static/js/2.6a27a790.chunk.js.map": "/topmassage/static/js/2.6a27a790.chunk.js.map",
+    "static/js/2.d3c0b3ce.chunk.js": "/topmassage/static/js/2.d3c0b3ce.chunk.js",
+    "static/js/2.d3c0b3ce.chunk.js.map": "/topmassage/static/js/2.d3c0b3ce.chunk.js.map",
     "index.html": "/topmassage/index.html",
     "static/css/2.ed1298f3.chunk.css.map": "/topmassage/static/css/2.ed1298f3.chunk.css.map",
     "static/css/main.1a7be3df.chunk.css.map": "/topmassage/static/css/main.1a7be3df.chunk.css.map",
-    "static/js/2.6a27a790.chunk.js.LICENSE.txt": "/topmassage/static/js/2.6a27a790.chunk.js.LICENSE.txt",
+    "static/js/2.d3c0b3ce.chunk.js.LICENSE.txt": "/topmassage/static/js/2.d3c0b3ce.chunk.js.LICENSE.txt",
     "static/media/logo.3731ace3.jpg": "/topmassage/static/media/logo.3731ace3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.88323c4a.js",
     "static/css/2.ed1298f3.chunk.css",
-    "static/js/2.6a27a790.chunk.js",
+    "static/js/2.d3c0b3ce.chunk.js",
     "static/css/main.1a7be3df.chunk.css",
-    "static/js/main.ebf0b5b8.chunk.js"
+    "static/js/main.abaebe3d.chunk.js"
   ]
 }
