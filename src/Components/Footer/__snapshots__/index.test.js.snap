@@ -10,15 +10,15 @@ exports[`Footer component should render correctly 1`] = `
     <p
       className="copyright"
     >
-       © 2021 Top Massage. All rights reserved
+       © 
+      2022
+       Top Massage. All rights reserved
     </p>
     <ul
       className="contacts"
     >
       <li
         className="facebook"
-        onClick={[Function]}
-        onMouseOver={[Function]}
       >
         <i
           className="fab fa-facebook-f"
@@ -26,8 +26,6 @@ exports[`Footer component should render correctly 1`] = `
       </li>
       <li
         className="insta"
-        onClick={[Function]}
-        onMouseOver={[Function]}
       >
         <i
           className="fab fa-instagram"
@@ -35,8 +33,6 @@ exports[`Footer component should render correctly 1`] = `
       </li>
       <li
         className="youtube"
-        onClick={[Function]}
-        onMouseOver={[Function]}
       >
         <i
           className="fab fa-youtube"

@@ -9,12 +9,15 @@ export default function filterDate(massageDate) {
     const massageMounth = massageDateArr[1]
     const massageYear = massageDateArr[2]
 
+
     if (massageYear > currentYear) {
         return 1
     } else {
-        if (massageMounth >= currentMounth) {
-            if (massageDay >= currentDay) {
-                return 1
+        if (massageYear >= currentYear) {
+            if (massageMounth >= currentMounth) {
+                if (massageDay >= currentDay) {
+                    return 1
+                }
             }
         }
     }

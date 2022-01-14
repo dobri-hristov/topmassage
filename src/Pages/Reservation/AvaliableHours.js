@@ -46,7 +46,6 @@ const AvaliableHours = ({ isDateChoosen, date }) => {
                     name="hour"
                     label={labelMessage}
                     onChange={handleHour}
-                    id="reservationHour"
                 >
                     {
                         isHoursSet && avaliableHours.length === 0

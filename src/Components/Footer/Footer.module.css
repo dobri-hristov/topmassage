@@ -3,7 +3,7 @@
     min-height: 60px;
     color: black;
     background-color: #757594;
-    padding-top: 12px;
+    padding: 10px 0;
 }
 
 .info {
@@ -15,17 +15,12 @@
     margin: 0 auto;
 }
 
-.copyright {
-    /* order: 2 */
-}
-
 .contacts {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     padding: 0;
     margin: 0;
-    /* order: 1 */
 }
 
 .contacts li {
@@ -37,6 +32,7 @@
     text-align: center;
     background: rgb(231, 226, 226);
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
 
 .contacts li i {

@@ -41,17 +41,27 @@ const ReservationPage = () => {
     }, [])
 
     const handleDate = (pickedDate) => {
-        const date = ('0' + pickedDate.getDate()).slice(-2) + '-'
-            + ('0' + (pickedDate.getMonth() + 1)).slice(-2) + '-'
-            + pickedDate.getFullYear()
-
         setDate('')
         setIsDateChoosen(false)
-        setAllHours(date, schedule)
-            .then(() => {
-                setDate(date)
-                setIsDateChoosen(true)
-            })
+
+        const today = new Date()
+        const minDate = today.setDate(today.getDate() + 1)
+        const maxDate = today.setDate(today.getDate() + 32)
+
+        if (minDate > pickedDate || maxDate < pickedDate) {
+            setAlert(true)
+            setErrorMessage('Моля изберете дата в следващия един месец!')
+        } else {
+            const date = ('0' + pickedDate.getDate()).slice(-2) + '-'
+                + ('0' + (pickedDate.getMonth() + 1)).slice(-2) + '-'
+                + pickedDate.getFullYear()
+
+            setAllHours(date, schedule)
+                .then(() => {
+                    setDate(date)
+                    setIsDateChoosen(true)
+                })
+        }
     }
 
     const handleSubmit = (event) => {
@@ -96,26 +106,26 @@ const ReservationPage = () => {
 
     return (
         <div className={styles.page}>
-                <div className={styles.formContainer}>
-                    <ReservationForma
-                        handleSubmit={handleSubmit}
-                        handleDate={handleDate}
-                        allMassages={allMassages}
-                        isAuth={contextData.auth}
-                        isDateChoosen={isDateChoosen}
-                        date={date}
-                        disableBtn={disableBtn} />
-                </div>
-                {
-                    alert
-                        ? <ErrorNotification message={errorMessage} />
-                        : null
-                }
-                {
-                    isSuccess
-                        ? <SuccessNotification message={successMessage} />
-                        : null
-                }
+            <div className={styles.formContainer}>
+                <ReservationForma
+                    handleSubmit={handleSubmit}
+                    handleDate={handleDate}
+                    allMassages={allMassages}
+                    isAuth={contextData.auth}
+                    isDateChoosen={isDateChoosen}
+                    date={date}
+                    disableBtn={disableBtn} />
+            </div>
+            {
+                alert
+                    ? <ErrorNotification message={errorMessage} />
+                    : null
+            }
+            {
+                isSuccess
+                    ? <SuccessNotification message={successMessage} />
+                    : null
+            }
         </div>
     )
 }

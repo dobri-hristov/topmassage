@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import DesktopDatePicker from '@mui/lab/DesktopDatePicker';
 import Grid from '@mui/material/Grid';
- import subDays from "date-fns/subDays"
+import subDays from "date-fns/subDays"
 import TextField from '@mui/material/TextField';
 
 const AvaliableDate = ({ handleDate }) => {
@@ -10,7 +10,9 @@ const AvaliableDate = ({ handleDate }) => {
 
     const handleChange = (value) => {
         setDate(value)
-        handleDate(value)
+        if (!isNaN(value)) {
+            handleDate(value)
+        }
         setLabelMessage('Избрана дата')
     };
 
@@ -27,14 +29,13 @@ const AvaliableDate = ({ handleDate }) => {
                 onChange={handleChange}
                 shouldDisableDate={sundayHandler}
                 minDate={subDays(new Date(), -2)}
-                maxDate={subDays(new Date(), -33)}  
+                maxDate={subDays(new Date(), -33)}
                 renderInput={(params) => <TextField {...params}
                     error={false}
                     name='date'
                     fullWidth
                     margin="normal"
                     label={labelMessage}
-                    id="reservationDate"
                 />}
             />
         </Grid>

@@ -19,7 +19,6 @@ const AvaliableMassages = ({ allMassages, isAuth}) => {
                 name="massage"
                 onChange={handleMassage}
                 fullWidth
-                id="reservationMassage"
             >
                 {
                     allMassages.map((massage) => (

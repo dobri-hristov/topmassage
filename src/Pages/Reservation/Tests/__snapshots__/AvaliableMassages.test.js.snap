@@ -17,9 +17,9 @@ exports[`Reservation page/AvaliableMassages component should render correctly wi
     <div
       aria-expanded="false"
       aria-haspopup="listbox"
-      aria-labelledby="reservationMassage"
+      aria-labelledby="mui-component-select-massage"
       className="MuiSelect-select MuiSelect-standard MuiInput-input MuiInputBase-input css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input"
-      id="reservationMassage"
+      id="mui-component-select-massage"
       onBlur={[Function]}
       onFocus={[Function]}
       onKeyDown={[Function]}
@@ -79,9 +79,9 @@ exports[`Reservation page/AvaliableMassages component should render correctly wi
     <div
       aria-expanded="false"
       aria-haspopup="listbox"
-      aria-labelledby="reservationMassage"
+      aria-labelledby="mui-component-select-massage"
       className="MuiSelect-select MuiSelect-standard MuiInput-input MuiInputBase-input css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input"
-      id="reservationMassage"
+      id="mui-component-select-massage"
       onBlur={[Function]}
       onFocus={[Function]}
       onKeyDown={[Function]}
@@ -141,9 +141,9 @@ exports[`Reservation page/AvaliableMassages component should render correctly wi
     <div
       aria-expanded="false"
       aria-haspopup="listbox"
-      aria-labelledby="reservationMassage"
+      aria-labelledby="mui-component-select-massage"
       className="MuiSelect-select MuiSelect-standard MuiInput-input MuiInputBase-input css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input"
-      id="reservationMassage"
+      id="mui-component-select-massage"
       onBlur={[Function]}
       onFocus={[Function]}
       onKeyDown={[Function]}
